@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" role="img" aria-label="Contract icon">
+  <rect width="72" height="72" rx="12" fill="#fff"/>
+  <g transform="translate(12,12)" fill="#0066cc">
+	<rect x="0" y="6" width="36" height="4" rx="2" />
+	<rect x="0" y="16" width="24" height="4" rx="2" />
+	<rect x="0" y="26" width="30" height="4" rx="2" />
+  </g>
+</svg>

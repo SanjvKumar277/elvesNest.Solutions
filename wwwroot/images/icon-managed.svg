@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" role="img" aria-label="Managed services icon">
+  <rect width="72" height="72" rx="12" fill="#fff"/>
+  <g transform="translate(12,12)" fill="#0066cc">
+	<circle cx="18" cy="18" r="10" />
+	<path d="M0 40c8-8 28-8 36 0v4H0v-4z" />
+  </g>
+</svg>

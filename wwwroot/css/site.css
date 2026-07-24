@@ -1,0 +1,191 @@
+:root {
+  --blue-900: #1c2b8f;
+  --blue-800: #273ed1;
+  --blue-700: #2348db;
+  --ink: #121317;
+  --muted: #5f6471;
+  --line: #e6e9f1;
+  --soft: #eef2f8;
+  --yellow: #ffc107;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  color: var(--ink);
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-top {
+    background: #5d617e;
+}
+
+.header-top a {
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.badge-contact {
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 4px;
+  padding: 0 .4rem;
+}
+
+.header-nav {
+    background: #7b83b8;
+}
+
+.logo-chip {
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: .2px;
+}
+
+.header-nav .nav-link {
+  color: #dbe1ff;
+  font-size: .92rem;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.header-nav .nav-link:hover {
+  color: #fff;
+}
+
+.hero-main {
+    background: linear-gradient(90deg, #d7daee, #424551);
+    color: #fff;
+}
+
+.hero-title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.15;
+  margin-bottom: .75rem;
+  font-weight: 700;
+}
+
+.hero-title span {
+  color: var(--yellow);
+}
+
+.hero-copy {
+  max-width: 650px;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.hero-image {
+  border-radius: 6px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, .28);
+}
+
+.hero-logos {
+    background: #5d617e;
+    color: #d9e0ff;
+    font-size: .95rem;
+}
+
+.section-title {
+  font-size: clamp(1.55rem, 2.6vw, 2.3rem);
+  font-weight: 650;
+}
+
+.tile-img {
+  height: 170px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.section-gray {
+  background: var(--soft);
+}
+
+.feature-title {
+  font-size: clamp(1.55rem, 2.2vw, 2.1rem);
+  font-weight: 650;
+  line-height: 1.18;
+}
+
+.feature-list {
+  margin-top: .65rem;
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
+.feature-list li {
+  margin-bottom: .2rem;
+}
+
+.feature-img {
+  border-radius: 6px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, .12);
+}
+
+.stats .num {
+  font-size: clamp(2rem, 3vw, 2.4rem);
+  font-weight: 700;
+  color: #f6b800;
+}
+
+.hl {
+  background: #ffe74f;
+  padding: 0 .15rem;
+}
+
+.portfolio-shot {
+  border-radius: 8px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, .1);
+}
+
+.time-head {
+  font-size: clamp(1.5rem, 2.3vw, 2.2rem);
+  line-height: 1.16;
+}
+
+.accordion-button {
+  font-weight: 500;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.cta-banner {
+  background: linear-gradient(rgba(21, 28, 62, .83), rgba(21, 28, 62, .83)), url("https://source.unsplash.com/1600x700/?teamwork,office") center/cover;
+  color: #fff;
+}
+
+.site-footer {
+    background: linear-gradient(90deg, #d7daee, #424551);
+    color: #dce4ff;
+}
+
+.site-footer h5,
+.site-footer h6 {
+  color: #fff;
+}
+
+.site-footer ul li {
+  margin-bottom: .35rem;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, .2);
+  background: #73757c;
+}
+
+@media (max-width: 767.98px) {
+  .header-top .container {
+    justify-content: center !important;
+    flex-wrap: wrap;
+  }
+
+  .hero-logos .container {
+    gap: 1rem !important;
+  }
+
+  .tile-img {
+    height: 140px;
+  }
+}
