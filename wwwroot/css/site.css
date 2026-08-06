@@ -92,7 +92,7 @@ a {
 }
 
 .tile-img {
-  height: 170px;
+ /* height: 170px;*/
   width: 100%;
   object-fit: cover;
 }
@@ -186,6 +186,6 @@ a {
   }
 
   .tile-img {
-    height: 140px;
+    /*height: 140px;*/
   }
 }
